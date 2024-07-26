@@ -1,0 +1,236 @@
+// src/components/styles.js
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 16,
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#0fb90c',
+    textAlign: 'center',
+    marginVertical: 16,
+  },
+  sosButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: '#FFCC00',
+    borderRadius: 5,
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  sosButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  emergencyContainer: {
+    padding: 16,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
+    marginBottom: 16,
+  },
+  emergencyHeader: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#0fb90c',
+    marginBottom: 8,
+  },
+  emergencySubHeader: {
+    fontSize: 14,
+    color: '#888',
+    marginBottom: 16,
+  },
+  emergencyTypes: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 16,
+  },
+  emergencyButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: '#eee',
+    borderRadius: 5,
+    alignItems: 'center',
+  },
+  emergencyButtonText: {
+    color: '#000',
+    fontSize: 14,
+  },
+  actionButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  cancelButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: '#fff',
+    borderColor: '#FFCC00',
+    borderWidth: 1,
+    borderRadius: 5,
+    flex: 1,
+    alignItems: 'center',
+    marginRight: 8,
+  },
+  sendButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: '#FFCC00',
+    borderRadius: 5,
+    flex: 1,
+    alignItems: 'center',
+  },
+  actionButtonText: {
+    color: '#000',
+    fontSize: 14,
+  },
+  infoContainer: {
+    padding: 16,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
+  },
+  infoHeader: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#000',
+    marginBottom: 8,
+  },
+  infoSubHeader: {
+    fontSize: 14,
+    color: '#888',
+    marginBottom: 16,
+  },
+  infoItems: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  infoItem: {
+    flex: 1,
+    marginRight: 8,
+  },
+  infoTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#000',
+    marginBottom: 4,
+  },
+  infoDescription: {
+    fontSize: 14,
+    color: '#888',
+  },
+  actionButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    backgroundColor: '#FFCC00',
+    borderRadius: 5,
+    alignItems: 'center',
+    margin: 8,
+  },
+  logoSmall: {
+    width: 100,
+    height: 100,
+    marginBottom: 20,
+    alignSelf: 'center',
+  },
+  button: {
+    backgroundColor: '#FFCC00',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    alignItems: 'center',
+    marginBottom: 10,
+    width: '80%',
+    alignSelf: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  // LocationSharingScreen styles
+  locationSharingContainer: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 16,
+  },
+  locationSharingHeader: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#4CAF50',
+    textAlign: 'center',
+    marginVertical: 16,
+  },
+  mapContainer: {
+    flex: 1,
+    marginBottom: 16,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+  },
+  userInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  userPlaceholder: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    backgroundColor: '#ccc',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 12,
+  },
+  userPlaceholderText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  userDetails: {
+    flex: 1,
+  },
+  userName: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#4CAF50',
+  },
+  userStatus: {
+    fontSize: 14,
+    color: 'gray',
+  },
+  shareButton: {
+    backgroundColor: '#4CAF50',
+    paddingVertical: 12,
+    borderRadius: 5,
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  shareButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  bottomButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  bottomButton: {
+    flex: 1,
+    backgroundColor: '#F0F0F0',
+    paddingVertical: 12,
+    borderRadius: 5,
+    alignItems: 'center',
+    marginHorizontal: 8,
+  },
+  bottomButtonText: {
+    fontSize: 16,
+    color: '#FF5722',
+    fontWeight: 'bold',
+  },
+});
